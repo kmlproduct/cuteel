@@ -264,12 +264,18 @@
         line-height: 35px;
       }
       .input {
-        width: 328px;
-        margin: 12px 0px;
+        border: none;
+        width: 100%;
         margin-bottom: 50px;
         // text-align: center;
         // position: relative;
         flex-direction: column;
+        input {
+          border: 2px solid #4444;
+          border-radius: 23px;
+          width: 100%;
+          line-height: 46px;
+        }
         span {
           // position: absolute;
           // bottom: -30px;
